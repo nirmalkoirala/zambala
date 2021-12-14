@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="location">
             <FaSearchLocation
               size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
+              style={{ color: "#000", marginRight: "2rem" }}
             />
             <div>
               <p>22/8 Goodchild Street</p>
@@ -28,7 +28,7 @@ const Footer = () => {
             <h4>
               <FaPhone
                 size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
+                style={{ color: "#000", marginRight: "2rem" }}
               />{" "}
               0435 816 031
             </h4>
@@ -37,7 +37,7 @@ const Footer = () => {
             <h4>
               <FaMailBulk
                 size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
+                style={{ color: "#000", marginRight: "2rem" }}
               />{" "}
               trops@galaxy.com
             </h4>
@@ -54,15 +54,15 @@ const Footer = () => {
           <div className="social">
             <FaFacebook
               size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
+              style={{ color: "#000", marginRight: "1rem" }}
             />
             <FaInstagram
               size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
+              style={{ color: "#000", marginRight: "1rem" }}
             />
             <FaLinkedin
               size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
+              style={{ color: "#000", marginRight: "1rem" }}
             /> 
           </div>
         </div>

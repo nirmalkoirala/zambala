@@ -9,6 +9,7 @@ export const ContactContainer = styled.div`
     height: 700px;
     position: relative;
     z-index: 1;
+    margin-top: 5rem;
     @media screen and (max-width: 820px) {
         margin: 0;
         padding: 10px;

@@ -16,6 +16,7 @@
   text-align: center;
   position: absolute;
   margin: auto;
+  margin-top: 3rem;
   width: 100%;
   height: 100%;
   top: 40vh;
@@ -24,6 +25,11 @@
 .hero .content h1 {
   font-size: 3rem;
   color: #fff;
+}
+@media screen and (max-width:468px) {
+  .hero .content h1 {
+    font-size: 2rem;
+  }
 }
 
 .hero p {
@@ -42,8 +48,15 @@
   color: #fff;
 }
 
-.hero .btn {
-  margin: 1rem 0.2rem;
+.btn {
+  text-align: center;
+  padding: 12px 32px; 
+  font-size: 1.2rem;
+  text-decoration: uppercase;
+  background: transparent;
+  color: #fff;
+  border:  1px solid #fff;
+  cursor: pointer;
 }
 
 .hero .btn:hover{

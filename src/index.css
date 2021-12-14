@@ -7,7 +7,7 @@
 }
 
 h1,p,a,h4,h3 {
-  color: #fff  ;
+  color: #000;
 }
  
 body {
@@ -18,7 +18,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: #000; 
+  background: #fff; 
 }
 
 ul{
@@ -39,8 +39,8 @@ code {
   font-size: 1.2rem;
   text-decoration: uppercase;
   background: transparent;
-  color: #fff;
-  border:  1px solid #fff;
+  color: #000;
+  border:  1px solid #000;
   cursor: pointer;
 }
 

@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import './NavbarStyles.css'
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/zambala.png'
 
 const Navbar = () => {
     const[click, setClick] = useState(false)
@@ -44,7 +44,7 @@ const Navbar = () => {
                 <a className="btn" href="tel:+61406789009">0406 789 009</a>
             </ul>
             <div className='hamburger' onClick={handleClick}>
-                {click ? (<FaTimes size={20} style={{color: '#fff'}} />) :  (<FaBars size={20} style={{color: '#fff'}} />)}
+                {click ? (<FaTimes size={20} style={{color: '#000'}} />) :  (<FaBars size={20} style={{color: '#000'}} />)}
             </div>
         </div>
     )

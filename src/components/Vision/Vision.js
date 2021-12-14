@@ -22,6 +22,9 @@ const Landing = () => {
            Our mission is to help all prospective students to materialise their dreams 
            by providing the right course and the best institution available in the market.
           </p>
+          <p>
+          We also strive to deliver the highest standard of service and care to enhance the reputation and quality of institutions and the Australian education system at large.
+          </p>
         </div>
         <div className="right">
 

@@ -7,58 +7,70 @@ import {
   FaInstagram,
   FaPhone,
   FaMailBulk,
+  FaClock
 } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="footer-container">
+    <div className="landing">
+      <div className="landing-container">
+      <div className="right">
+          <h3>About the company</h3>
+          <p>
+          Zambala Education Consultancy Australia is a client-focused and result-driven
+           education agency in Australia. Our qualified education counsellors provide 
+           up-to-date and correct information to make informed choices right from the 
+           beginning. We assist all students aspiring to study in Australia with 
+           admission, visa application, accommodation, health insurance, airport 
+           pick-up and many more, ensuring smooth transition. Your peace of mind 
+           is guaranteed! {" "}
+          </p>
+          </div>
         <div className="left">
-
-          <a className="btn">
+          <a className="clicklink" href="tel:+61406789009">
           <div className="location">
-            <FaSearchLocation
+            <FaPhone
               size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
+              style={{ color: "#5AAC51 ", marginRight: "1rem" }}
             />
             <div>
-              <p>22/8 Goodchild Street</p>
-              <h4>Lyneham, ACT 2602</h4>
+              <p>Phone Number</p>
+              <h4>0435 816 031</h4>
             </div>
           </div>
           </a>
 
-          <a className="btn">
+          <a className="clicklink" href="mailto:infor@zambala.com">
           <div className="location">
-            <FaSearchLocation
+            <FaMailBulk
               size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
+              style={{ color: "#5AAC51 ", marginRight: "1rem" }}
             />
             <div>
-              <p>22/8 Goodchild Street</p>
-              <h4>Lyneham, ACT 2602</h4>
+              <p>Email</p>
+              <h4>info@zambala.com</h4>
             </div>
           </div>
           </a>
 
-                    <a className="btn">
+                    <a className="clicklink">
           <div className="location">
-            <FaSearchLocation
+            <FaClock
               size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
+              style={{ color: "#5AAC51 ", marginRight: "1rem" }}
             />
             <div>
-              <p>22/8 Goodchild Street</p>
-              <h4>Lyneham, ACT 2602</h4>
+              <p>Opening Hours</p>
+              <h4>Mon - Sun / 9am - 5pm</h4>
             </div>
           </div>
           </a>
 
-                    <a className="btn">
+                    <a className="clicklink">
           <div className="location">
             <FaSearchLocation
               size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
+              style={{ color: "#5AAC51 ", marginRight: "1rem" }}
             />
             <div>
               <p>22/8 Goodchild Street</p>
@@ -68,31 +80,9 @@ const Footer = () => {
           </a>         
           
         </div>
-        <div className="right">
-          <h4>About the company</h4>
-          <p>
-            Samdpai Dondrup Education Consultancy is an education agent and
-            service provider established in 2019 with our main office in
-            Thimphu, Bhutan. We have branch offices in Canberra, Brisbane and
-            Perth, Australia.{" "}
-          </p>
-          <div className="social">
-            <FaFacebook
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaInstagram
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            /> 
-          </div>
+
         </div>
       </div>
-    </div>
   );
 };
 

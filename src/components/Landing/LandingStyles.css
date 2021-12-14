@@ -1,83 +1,95 @@
 
- .footer {
+ .landing {
    width: 100%;
+   height: 100%;
    padding: 6rem 0;
-   background: rgba(0,0,0,0.8)
+   background: #F2F2F2;
 }
 
-@media screen and (max-width: 640px) {
-   .footer {
-       height: 110px;
-   }
-}
 
-.footer-container {
-  max-width: 1140px;
+
+.landing-container {
+  max-width: 2040px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 40px;
 }
 
-.footer .left {
+ .left {
   height: 100%;
   max-width: 100%;
   display: flex;
   flex-direction: column;
   padding: 1rem;
+  /* margin-left: 10rem; */
 }
 
-.footer .btn{
+ .clicklink{
+   width: 50%;
+   display: flex;
+   justify-content: flex-start;
    padding: 2px 32px; 
    text-align: center;
    text-decoration: uppercase;
    background: transparent;
-   color: #fff;
-   border:  2px solid #fff;
+   color: #000;
+   border:  2px solid #000;
    cursor: pointer;
    border-radius: 20px;
    margin-bottom: 5px;
+   box-shadow: 5px 5px 5px #AAB7B8;
 }
 
-.footer .btn:hover {
-   background-color: blue;
-   color: white;
+.clicklink:hover{
+  background: rgba(255,255,255, .2);
 }
 
-.footer .right {
+@media screen and (max-width: 1024px) {
+   .clicklink{
+     width: 100%;
+      padding: 1px 20px;
+      height: 80px;
+   }
+}
+
+
+.right {
   height: 100%;
-  max-width: 100%;
+  max-width: 70%;
   display: flex;
   flex-direction: column;
   padding: 1rem;
   margin: auto;
 }
 
-.footer h4{
-  font-size:  1.1rem;
+.landing h4{
+  font-size:  1.2rem;
   padding: 1rem 0;
+  color: #D99A2B ;
 }
 
-.footer p {
-  font-size: 1rem;
+.landing h3{
+  font-size:  2rem;
   padding: 1rem 0;
+  color: #D99A2B ;
 }
 
-.footer .location{
+ .location{
   display: flex;
   align-items: center;
 }
 
-.footer .location p {
+.location p {
   padding-bottom: .5rem;
 }
 
-.footer .location h4 {
+.location h4 {
   padding-top: 0;
 }
 
 @media screen and (max-width: 640px) {
-  .footer-container {
+  .landing-container {
       grid-template-columns: 1fr;
   }
 

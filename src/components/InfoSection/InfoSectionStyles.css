@@ -30,13 +30,17 @@
 }
 
 .hero-img p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    padding: 2.5rem;
 }
 
 
 @media screen and (max-width: 640px) {
     .hero-img h1 {
         font-size: 2rem;
+    }
+    .hero-img p {
+        font-size: 1.1rem;
     }
 }
 
