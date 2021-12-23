@@ -29,7 +29,9 @@
 }
 
 .card-container .card {
-    border: 1px solid   #104DB6  ;
+    border: 1px solid   #104DB6;
+    width: 300px;
+    height: 320px;
 }
 
 .card {

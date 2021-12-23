@@ -10,7 +10,9 @@ const AboutUs = () => {
         <div className='training'>
             <div className='left'>
                 <h1>About Us</h1>
-                <p>Samdpai Dondrup Education Consultancy is an education agent and service provider established in 2019 with our main office in Thimphu, Bhutan.</p>
+                <p>ZEC is a registered education consultancy based in Canberra, Australia. We offer education services to students who wish to study in Australia.</p>
+                <p>We are committed to serving and representing in the best interest of students and institutions in line with our principles of respect, objectivity, transparency, confidentiality, and integrity to achieve the desired outcomes.</p>
+                <p>We also strive to deliver the highest standard of service and care to enhance the reputation and quality of institutions and the Australian education system at large.</p>
             <Link to='/contact'><button className='btn'>Contact Us</button></Link>
             </div>
             <div className='right'>

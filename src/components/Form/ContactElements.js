@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const ContactContainer = styled.div`
-    background: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +8,9 @@ export const ContactContainer = styled.div`
     height: 700px;
     position: relative;
     z-index: 1;
-    margin-top: 5rem;
+    margin-top: 0rem;
+
+
     @media screen and (max-width: 820px) {
         margin: 0;
         padding: 10px;
@@ -51,7 +52,7 @@ export const Heading = styled.h1`
     font-size: 38px;
     line-height: 1.1;
     font-weight: 600;
-    color: #fff;
+    color: #D99A2B ;
     /* color: ${({ lightText }) => ( lightText ? '#f7f8fa' : '#010606' )}; */
 
     @media screen and (max-width: 480px) {

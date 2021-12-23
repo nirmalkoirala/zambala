@@ -1,13 +1,5 @@
 import React from "react";
 import "./VisionStyles.css";
-import {
-  FaSearchLocation,
-  FaFacebook,
-  FaLinkedin,
-  FaInstagram,
-  FaPhone,
-  FaMailBulk,
-} from "react-icons/fa";
 import Pic1 from '../../assets/drukul1.jpg'
 import Pic2 from '../../assets/drukul2.jpg'
 
@@ -29,12 +21,12 @@ const Landing = () => {
         <div className="right">
 
         <div className='img-container'>
-                    <div className='image-stack top'>
+                    {/* <div className='image-stack top'>
                         <img src={Pic2} className='img' alt='' />
-                    </div>
-                    <div className='image-stack bottom'>
+                    </div> */}
+                    {/* <div className='image-stack bottom'>
                         <img src={Pic1} className='img' alt='' />
-                    </div>
+                    </div> */}
                 </div>
         </div>
       </div>

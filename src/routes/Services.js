@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '../components/Footer/Footer'
+import Footer from '../../src/Footer'
 import Form from '../components/Form'
 import InfoSection from '../components/InfoSection/InfoSection'
 import Navbar from '../components/Navbar/Navbar'
@@ -10,9 +10,9 @@ const Services = () => {
     return (
         <div>
             <Navbar />
-            <InfoSection heading='SERVICES.' text=''/>
+            <InfoSection heading='SERVICES' text='The services mentioned below are not an exhaustive list; we go above and beyond to meet your needs if need be.'/>
             <Pricing />
-            <Form />
+            {/* <Form /> */}
             <Footer />
         </div>
     )

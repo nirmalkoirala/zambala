@@ -33,7 +33,7 @@ const [valid, setValid] = useState(false);
         event.preventDefault();
         if(values.Name && values.Email && values.Phone && values.Message) {
             setValid(true);
-            emailjs.sendForm('service_26ylxcg', 'template_3za3n03', event.target, 'user_X322tsOB9anuCFO6lX7ax').then(res=>{
+            emailjs.sendForm('service_jt9gx71', 'template_qext7rr', event.target, 'user_vlwqL1uPhRrwRR9kWazmW').then(res=>{
               console.log(res);
             }).catch(err=> console.log(err));
         }

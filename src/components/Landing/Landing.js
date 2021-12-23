@@ -27,7 +27,7 @@ const Footer = () => {
           </p>
           </div>
         <div className="left">
-          <a className="clicklink" href="tel:+61406789009">
+          <a className="clicklink" href="tel:+61435816031">
           <div className="location">
             <FaPhone
               size={20}
@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
           </a>
 
-          <a className="clicklink" href="mailto:infor@zambala.com">
+          <a className="clicklink" href="mailto:info@zambalaeducation.com.au">
           <div className="location">
             <FaMailBulk
               size={20}
@@ -48,7 +48,7 @@ const Footer = () => {
             />
             <div>
               <p>Email</p>
-              <h4>info@zambala.com</h4>
+              <h4>info@zambalaeducation.com.au</h4>
             </div>
           </div>
           </a>
